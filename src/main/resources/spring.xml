@@ -6,5 +6,8 @@
     <bean id="dev" class="org.sajourney.demo_spring.Dev">
 
     </bean>
+    <bean id="laptop" class="org.sajourney.demo_spring.Laptop">
+
+    </bean>
 
 </beans>
