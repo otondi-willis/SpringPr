@@ -4,6 +4,7 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="dev" class="org.sajourney.demo_spring.Dev">
+        <property name="age" value="12"/>
 
     </bean>
     <bean id="dev1" class="org.sajourney.demo_spring.Dev">
