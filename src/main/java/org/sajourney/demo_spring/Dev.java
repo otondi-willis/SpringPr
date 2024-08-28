@@ -21,6 +21,14 @@ public class Dev {
         this.age = age;
     }
 
+    public Laptop getLaptop() {
+        return laptop;
+    }
+
+    public void setLaptop(Laptop laptop) {
+        this.laptop = laptop;
+    }
+
     public void build(){
         System.out.println("working on awesome project");
 
