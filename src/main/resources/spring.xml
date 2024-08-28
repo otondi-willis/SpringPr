@@ -4,12 +4,13 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="dev" class="org.sajourney.demo_spring.Dev">
+        <property name="laptop" ref="lap1"/>
 <!--        <property name="age" value="12"/>-->
-        <constructor-arg value="14"/>
+<!--        <constructor-arg value="14"/>-->
 
     </bean>
 
-    <bean id="laptop" class="org.sajourney.demo_spring.Laptop">
+    <bean id="lap1" class="org.sajourney.demo_spring.Laptop">
 
     </bean>
 

@@ -2,7 +2,7 @@ package org.sajourney.demo_spring;
 
 
 public class Dev {
-    //private Laptop laptop;
+    private Laptop laptop;
     private int age;
     public Dev(){
         System.out.println("Dev Constructor");
@@ -24,7 +24,7 @@ public class Dev {
     public void build(){
         System.out.println("working on awesome project");
 
-       // laptop.compile();
+       laptop.compile();
 
     }
 }
