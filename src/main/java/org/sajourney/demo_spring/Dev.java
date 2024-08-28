@@ -8,6 +8,10 @@ public class Dev {
         System.out.println("Dev Constructor");
     }
 
+    public Dev(int age) {
+        this.age = age;
+    }
+
     public int getAge() {
         return age;
     }
