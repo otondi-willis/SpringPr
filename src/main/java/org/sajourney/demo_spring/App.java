@@ -4,7 +4,8 @@ public class App
 {
     public static void main( String[] args )
     {
-        Dev obj = new Dev();
+        ApplicationContext
+        Dev obj;
         obj.build();
 
 
