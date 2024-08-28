@@ -1,10 +1,13 @@
 package org.sajourney.demo_spring;
 
-public class App 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class App
 {
     public static void main( String[] args )
     {
-        ApplicationContext
+        ApplicationContext context = new ClassPathXmlApplicationContext();
         Dev obj;
         obj.build();
 
