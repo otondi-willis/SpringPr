@@ -3,7 +3,7 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="dev" class="org.sajourney.demo_spring.Dev" autowire="byName">
+    <bean id="dev" class="org.sajourney.demo_spring.Dev" autowire="byType">
 <!--        <property name="comp" ref="comp"/>-->
 
     </bean>
