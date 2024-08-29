@@ -2,16 +2,13 @@ package org.sajourney.demo_spring;
 
 
 public class Dev {
-    private Laptop laptop;
+    private Computer comp;
     private int age;
     public Dev(){
         System.out.println("Dev Constructor");
     }
 
-    public Dev(Laptop laptop) {
-        this.laptop = laptop;
-        System.out.println("Dev1 constructor");
-    }
+
 
     public int getAge() {
         return age;
@@ -21,12 +18,12 @@ public class Dev {
         this.age = age;
     }
 
-    public Laptop getLaptop() {
-        return laptop;
+    public Computer getComp() {
+        return comp;
     }
 
-    public void setLaptop(Laptop laptop) {
-        this.laptop = laptop;
+    public void setComp(Computer comp) {
+        this.comp = comp;
     }
 
     public void build(){
