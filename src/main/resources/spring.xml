@@ -11,7 +11,7 @@
     <bean id="comp" class="org.sajourney.demo_spring.Laptop">
 
     </bean>
-    <bean id="desk1" class="org.sajourney.demo_spring.Desktop">
+    <bean id="comp1" class="org.sajourney.demo_spring.Desktop">
     </bean>
 
 </beans>
