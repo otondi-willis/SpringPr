@@ -3,16 +3,15 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="dev" class="org.sajourney.demo_spring.Dev">
-        <constructor-arg ref="lap1"/>
-<!--        <property name="laptop" ref="lap1"/>-->
-<!--        <property name="age" value="12"/>-->
-<!--        <constructor-arg value="14"/>-->
+    <bean id="dev" class="org.sajourney.demo_spring.Dev" autowire="byName">
+<!--        <property name="comp" ref="comp"/>-->
 
     </bean>
 
-    <bean id="lap1" class="org.sajourney.demo_spring.Laptop">
+    <bean id="comp" class="org.sajourney.demo_spring.Laptop">
 
+    </bean>
+    <bean id="desk1" class="org.sajourney.demo_spring.Desktop">
     </bean>
 
 </beans>
