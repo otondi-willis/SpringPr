@@ -1,6 +1,6 @@
 package org.sajourney.demo_spring;
 
-public class Laptop {
+public class Laptop implements Computer {
     public Laptop(){
         System.out.println("Laptop Constructor");
     }
